@@ -1,6 +1,6 @@
 # Site settings
 title: SlicerSALT
-email: slicer-users@bwh.harvard.edu
+email: beatriz.paniagua@kitware.com
 description: > # this means to ignore newlines until "baseurl:"
   Shape Analysis in 3D Slicer: open-source software for shape analysis studies
 baseurl: "" # the subpath of your site, e.g. /blog/
