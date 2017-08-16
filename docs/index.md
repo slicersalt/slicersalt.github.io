@@ -18,7 +18,7 @@ General Slicer guide
 
 Tutorials for the finer steps
 ---------------------
-* [SPHARM-PDM](https://github.com/bpaniagua/SPHARM-PDM/blob/add-Tutorial2017/Modules/Scripted/ShapeAnalysisModule/Resources/Doc/SPHARM-PDM-Tutorial.pdf) Last updated June 21st 2017.
+* [SPHARM-PDM](https://github.com/NIRALUser/SPHARM-PDM/blob/master/Doc/SPHARM-PDM-Tutorial.pdf) Last updated July 21st 2017.
 * Under construction
 
 SlicerSALT Forum
