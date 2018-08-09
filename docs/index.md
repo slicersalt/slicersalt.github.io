@@ -18,8 +18,8 @@ General Slicer guide
 
 Tutorials for the finer steps
 ---------------------
-* [SPHARM-PDM](https://github.com/NIRALUser/SPHARM-PDM/blob/master/Doc/SPHARM-PDM-Tutorial.pdf) Last updated July 21st 2017.
-* Under construction
+* [Spherical Harmonic Representation Point Distribution Models (SPHARM-PDM)](https://github.com/NIRALUser/SPHARM-PDM/blob/master/Doc/SPHARM-PDM-Tutorial.pdf) Last updated July 21st 2017.
+* [Study-specific shape analysis (GROUPS)](https://github.com/slicersalt/slicersalt.github.io/blob/master/docs/GROUPS-Tutorial-July16_2018.pdf) Last updated July 16th 2018.
 
 SlicerSALT Forum
 ---------------------
