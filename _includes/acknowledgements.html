@@ -1,0 +1,19 @@
+<!-- About Section -->
+<section id="acknowledgements" class="acknowledgements ack-list has-bg">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="row ack-details">
+                {% assign animationDelay = 0 %}
+                {% for ackList in site.ackListBlock %}
+                <div class="col-md-3">
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <img src="{{ site.baseurl }}/img/ack-logos/{{ ackList.image }}" height="auto" width="224" align="middle" alt="{{ ackList.title }}">
+                    </div>
+                </div>
+                {% assign animationDelay = animationDelay | plus:200 %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->

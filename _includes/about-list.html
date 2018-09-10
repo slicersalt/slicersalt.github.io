@@ -1,0 +1,24 @@
+<!-- About Section -->
+<section id="about" class="about about-list">
+    <div class="content-wrapper">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h3>{{ site.aboutListTitle }}</h3>
+            <div class="row about-details">
+                {% assign animationDelay = 0 %}
+                {% for aboutList in site.aboutListBlock %}
+                {% assign colWidth = 30 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ aboutList.image }}" height="128" width="128" alt="{{ aboutList.title }}">
+                        <p>{{ aboutList.text }}</p>
+                    </div>
+                </div>
+                {% assign animationDelay = animationDelay | plus:200 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->

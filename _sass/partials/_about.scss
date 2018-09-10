@@ -1,0 +1,12 @@
+.about-details {
+    padding-top:30px;
+    & > div {
+        min-height:260px;
+    }
+    img {
+        width: 128px;
+    }
+    p {
+        margin-top: 10px;
+    }
+}

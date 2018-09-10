@@ -1,15 +1,43 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html lang="en">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+{% include head.html %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<body>
+    <div id="preloader" class="preloader">
+        <div class="loader-gplus"></div>
+    </div>
+    
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
 
-</div>
+                {% include top-section.html %}
+
+                {% include post.html isStaticPost=page.isStaticPost %} 
+                
+                {% include footer.html %}
+
+            </div>
+        </div>
+    </div>
+
+    {% include analytics.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js " | prepend: site.baseurl }}><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+        if (typeof ($.fn.modal) === 'undefined') {
+            document.write('<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}><\/script>')
+        }
+    </script>
+    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+    <script>Waves.displayEffect();</script>
+    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
+    {% include schema-event.html %}
+</body>
+
+</html>

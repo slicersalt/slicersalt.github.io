@@ -1,11 +1,127 @@
-# Site settings
-title: SlicerSALT
-email: beatriz.paniagua@kitware.com
-description: > # this means to ignore newlines until "baseurl:"
-  Shape Analysis in 3D Slicer: open-source software for shape analysis studies
-baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username: Kitware/SlicerSALT
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
 
-# Build settings
+# Build Settings
 markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "SlicerSALT"
+email: "beatriz.paniagua@kitware.com"
+description: "SlicerSALT is the dissemination vehicle of powerful shape analysis methodology based on 3D Slicer open-source software."
+baseurl: ""
+#url: ""
+permalink: "/news/:title"
+
+# Organizer Info
+organizerName: "Kitware"
+organizerAlternateName: "Kitware, Inc."
+organizerDescription: "Kitware is a software research, consulting, and development company specializing in computer vision, data and analytics, high-performance computing and visualization, medical computing, and software process."
+organizerEmail: "email@email.com"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "https://kitware.com"
+
+# Head
+metaKeywords: "slicer, salt, kitware, shape, analysis, tool"
+twitterAccount: ""
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/about/", text: "About", class: ""}
+ - {permalink: "/citations/", text: "Citations", class: ""}
+ - {permalink: "/documentation/", text: "Documentation", class: ""}
+ - {permalink: "/news/", text: "News & Events", class: ""}
+ - {permalink: "https://kitware.com/contact-us#consulting", text: "Contact", class: ""}
+rightNavigationButtons:
+ - {link: "/download/", text: "Download"}
+
+# Hero Block
+heroImage: "hero2.jpg"
+heroTitle: "SlicerSALT <typeout>"
+heroDescription: "SlicerSALT is the dissemination vehicle of powerful shape analysis methodology based on 3D Slicer open-source software."
+typeoutTextValues: '"» Shape Analysis Tool"'
+typeoutFallback: "Shape Analysis Tool"
+heroButtons:
+ - {link: "/download/", text: "Download SlicerSALT"}
+
+# Acknowledgements Block
+ackListBlock:
+ - {image: "unc_logo.png" }
+ - {image: "nyu_tandon_logo.png" }
+ - {image: "3d_slicer_logo.png" }
+ - {image: "kitware_logo.png" }
+
+# About Block
+aboutListTitle: "With SlicerSALT you can..."
+aboutListBlock:
+ - {image: "250x250.png", text: "Compute Point Distributed Models (PDM) using Spherical Harmonic Representation (SPHARM-PDM)" }
+ - {image: "250x250.png", text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
+ - {image: "250x250.png", text: "Perform correspondence optimization using study-wise shape analysis" }
+ - {image: "250x250.png", text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
+ - {image: "250x250.png", text: "Compute image-based correspondence in binary volumes of different topologies" }
+ - {image: "250x250.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
+ - {image: "250x250.png", text: "Visualize, edit, and register multimodal data using 3D Slicer tools" }
+ - {image: "250x250.png", text: "Access all functionality through the graphical user interface" }
+ - {image: "250x250.png", text: "Perform command line batch processing" }
+ - {image: "250x250.png", text: "Extended and improved shape analysis functionality is coming soon in Slicer…" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "10", specialCharacter: "", info: "developers", detail: ""}
+ - {count: "99", specialCharacter: "+", info: "contributors", detail: ""}
+ - {count: "300", specialCharacter: "+", info: "users", detail: ""}
+ - {count: "1280", specialCharacter: "", info: "lines of code", detail: ""}
+
+# Latest News Block
+latestNewsTitle: "Latest News & Events"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# CTA Block
+ctaImage: "download.jpg"
+ctaTitle: "Get SlicerSALT"
+ctaButtonText: "Download Now"
+ctaLink: "/download/"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+ - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "<strong>Shape Analysis in 3D Slicer:</strong> <br>Open-source software for shape analysis studies"
+ -
+  title: "Contact &amp; Info"
+  links:
+   - {link: "mailto:beatriz.paniagua@kitware.com", text: "beatriz.paniagua@kitware.com"}
+   - {link: "https://github.com/Kitware/SlicerSALT", text: "SlicerSALT on Github"}
+ -
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"

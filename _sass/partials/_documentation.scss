@@ -1,0 +1,25 @@
+.docs-info {
+    padding-bottom:0;
+}
+
+.docs-details {
+    padding-bottom:60px;
+    text-align:left;
+    .sm {
+        font-size:11px;
+    }
+    code {
+        font-size:95%;
+    }
+}
+
+.docs-detail-columns {
+    padding:40px 0;
+    p {
+        margin-bottom:20px;
+    }
+    ul {
+        font-size:16px;
+        text-align:left;
+    }
+}
