@@ -12,24 +12,24 @@
     }
     .about-list-item {
         position:relative;
-        &:before {
-            background: url(../img/about-section/ComingSoonSALT.png) no-repeat;
-            background-size:100%;
-            background-position: center center;
-            border-radius:100%;
-            color:white;
-            content: "";
-            /*content:counter(about-details);*/ /* Use the counter as content */
-            /*counter-increment:about-details;*/ /* Increment the counter by 1 */
-            font-size:32px;
-            height:72px;
-            left:50%;
-            padding:14px;
-            position:absolute;
-            top:-60px;
-            transform:translate(-50%,-50%);
-            width:72px;
-        }
+    }
+    .about-list-item img {
+        /*background: url(../img/about-section/ComingSoonSALT.png) no-repeat;*/
+        /*background-size:100%;*/
+        /*background-position: center center;*/
+        border-radius:100%;
+        color:white;
+        /*content: "";*/
+        /*content:counter(about-details);*/ /* Use the counter as content */
+        /*counter-increment:about-details;*/ /* Increment the counter by 1 */
+        font-size:32px;
+        height:72px;
+        left:50%;
+        /*padding:14px;*/
+        position:absolute;
+        top:-60px;
+        transform:translate(-50%,-50%);
+        width:72px;
     }
 }
 

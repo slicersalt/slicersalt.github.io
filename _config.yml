@@ -66,16 +66,16 @@ ackListBlock:
 # About Block
 aboutListTitle: "With SlicerSALT you can..."
 aboutListBlock:
- - {text: "Compute Point Distributed Models (PDM) using Spherical Harmonic Representation (SPHARM-PDM)" }
- - {text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
- - {text: "Perform correspondence optimization using study-wise shape analysis" }
- - {text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
- - {text: "Compute image-based correspondence in binary volumes of different topologies" }
- - {text: "Use advanced shape statistics for scientific hypothesis testing" }
- - {text: "Visualize, edit, and register multimodal data using 3D Slicer tools" }
- - {text: "Access all functionality through the graphical user interface" }
- - {text: "Perform command line batch processing" }
- - {text: "Extended and improved shape analysis functionality is coming soon in Slicer…" }
+ - { image: "ComingSoonSALT.png", text: "Compute Point Distributed Models (PDM) using Spherical Harmonic Representation (SPHARM-PDM)" }
+ - { image: "ComingSoonSALT.png", text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
+ - { image: "ComingSoonSALT.png", text: "Perform correspondence optimization using study-wise shape analysis" }
+ - { image: "ComingSoonSALT.png", text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
+ - { image: "ComingSoonSALT.png", text: "Compute image-based correspondence in binary volumes of different topologies" }
+ - { image: "ComingSoonSALT.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
+ - { image: "ComingSoonSALT.png", text: "Visualize, edit, and register multimodal data using 3D Slicer tools" }
+ - { image: "ComingSoonSALT.png", text: "Access all functionality through the graphical user interface" }
+ - { image: "ComingSoonSALT.png", text: "Perform command line batch processing" }
+ - { image: "ComingSoonSALT.png", text: "Extended and improved shape analysis functionality is coming soon in Slicer…" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
