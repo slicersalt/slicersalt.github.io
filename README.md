@@ -5,7 +5,9 @@ Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, 
 
 ## Local development
 
-Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
+Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/) or
+consider using this [docker image](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
+
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
     gem install bundler
@@ -14,7 +16,7 @@ and run next command from root folder:
 
 ```bash
   bundle install
-```  
+```
 
 To start Jekyll run:
 ```bash
