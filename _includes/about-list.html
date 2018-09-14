@@ -8,8 +8,8 @@
                 {% for aboutList in site.aboutListBlock %}
                 {% assign colWidth = 30 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
-                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ aboutList.image }}" height="128" width="128" alt="{{ aboutList.title }}">
+                    <div class="about-list-item animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <!-- img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ aboutList.image }}" height="128" width="128" alt="{{ aboutList.title }}" -->
                         <p>{{ aboutList.text }}</p>
                     </div>
                 </div>

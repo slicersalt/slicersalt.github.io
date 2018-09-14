@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/about/", text: "About", class: ""}
  - {permalink: "/citations/", text: "Citations", class: ""}
  - {permalink: "/documentation/", text: "Documentation", class: ""}
- - {permalink: "/news/", text: "News & Events", class: ""}
+# - {permalink: "/news/", text: "News & Events", class: ""}
  - {permalink: "https://kitware.com/contact-us#consulting", text: "Contact", class: ""}
 rightNavigationButtons:
  - {link: "/download/", text: "Download"}
@@ -51,7 +51,7 @@ rightNavigationButtons:
 heroImage: "hero2.jpg"
 heroTitle: "SlicerSALT <typeout>"
 heroDescription: "SlicerSALT is the dissemination vehicle of powerful shape analysis methodology based on 3D Slicer open-source software."
-typeoutTextValues: '"» Shape Analysis Tool"'
+typeoutTextValues: '"", "» Shape Analysis Tool"'
 typeoutFallback: "Shape Analysis Tool"
 heroButtons:
  - {link: "/download/", text: "Download SlicerSALT"}
@@ -66,16 +66,16 @@ ackListBlock:
 # About Block
 aboutListTitle: "With SlicerSALT you can..."
 aboutListBlock:
- - {image: "250x250.png", text: "Compute Point Distributed Models (PDM) using Spherical Harmonic Representation (SPHARM-PDM)" }
- - {image: "250x250.png", text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
- - {image: "250x250.png", text: "Perform correspondence optimization using study-wise shape analysis" }
- - {image: "250x250.png", text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
- - {image: "250x250.png", text: "Compute image-based correspondence in binary volumes of different topologies" }
- - {image: "250x250.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
- - {image: "250x250.png", text: "Visualize, edit, and register multimodal data using 3D Slicer tools" }
- - {image: "250x250.png", text: "Access all functionality through the graphical user interface" }
- - {image: "250x250.png", text: "Perform command line batch processing" }
- - {image: "250x250.png", text: "Extended and improved shape analysis functionality is coming soon in Slicer…" }
+ - {text: "Compute Point Distributed Models (PDM) using Spherical Harmonic Representation (SPHARM-PDM)" }
+ - {text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
+ - {text: "Perform correspondence optimization using study-wise shape analysis" }
+ - {text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
+ - {text: "Compute image-based correspondence in binary volumes of different topologies" }
+ - {text: "Use advanced shape statistics for scientific hypothesis testing" }
+ - {text: "Visualize, edit, and register multimodal data using 3D Slicer tools" }
+ - {text: "Access all functionality through the graphical user interface" }
+ - {text: "Perform command line batch processing" }
+ - {text: "Extended and improved shape analysis functionality is coming soon in Slicer…" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -107,9 +107,9 @@ ctaLink: "/download/"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+# - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+# - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+# - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -

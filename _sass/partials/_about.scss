@@ -1,12 +1,39 @@
 .about-details {
-    padding-top:30px;
+    padding-top:90px;
+    counter-reset:about-details; /* Initiate a counter */
     & > div {
-        min-height:260px;
+        min-height:240px;
     }
     img {
         width: 128px;
     }
     p {
         margin-top: 10px;
+    }
+    .about-list-item {
+        position:relative;
+        &:before {
+            background: url(../img/other/list_logo.png) no-repeat;
+            background-size:100%;
+            background-position: center center;
+            border-radius:100%;
+            color:white;
+            content:counter(about-details); /* Use the counter as content */
+            counter-increment:about-details; /* Increment the counter by 1 */
+            font-size:32px;
+            height:72px;
+            left:50%;
+            padding:14px;
+            position:absolute;
+            top:-60px;
+            transform:translate(-50%,-50%);
+            width:72px;
+        }
+    }
+}
+
+.about-blurb {
+    .about-details {
+        padding-top:30px;
     }
 }
