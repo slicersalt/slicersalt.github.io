@@ -1,6 +1,6 @@
 .about-details {
     padding-top:90px;
-    counter-reset:about-details; /* Initiate a counter */
+    /*counter-reset:about-details;*/ /* Initiate a counter */
     & > div {
         min-height:240px;
     }
@@ -13,13 +13,14 @@
     .about-list-item {
         position:relative;
         &:before {
-            background: url(../img/other/list_logo.png) no-repeat;
+            background: url(../img/about-section/ComingSoonSALT.png) no-repeat;
             background-size:100%;
             background-position: center center;
             border-radius:100%;
             color:white;
-            content:counter(about-details); /* Use the counter as content */
-            counter-increment:about-details; /* Increment the counter by 1 */
+            content: "";
+            /*content:counter(about-details);*/ /* Use the counter as content */
+            /*counter-increment:about-details;*/ /* Increment the counter by 1 */
             font-size:32px;
             height:72px;
             left:50%;
