@@ -51,8 +51,8 @@ rightNavigationButtons:
 heroImage: "hero2.jpg"
 heroTitle: "SlicerSALT <typeout>"
 heroDescription: "SlicerSALT is the dissemination vehicle of powerful shape analysis methodology based on 3D Slicer open-source software."
-typeoutTextValues: '"", "» Shape Analysis Tool"'
-typeoutFallback: "Shape Analysis Tool"
+typeoutTextValues: '"", "» Shape Analysis Toolbox"'
+typeoutFallback: "Shape Analysis Toolbox"
 heroButtons:
  - {link: "/download/", text: "Download SlicerSALT"}
 
