@@ -74,6 +74,7 @@ aboutListBlock:
  - { image: "ComingSoonSALT.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
  - { image: "SALT_gui.png", text: "Access all functionality through the graphical user interface" }
  - { image: "commandline.png", text: "Perform command line batch processing" }
+ - { image: "sva.png", text: "Perform shape space exploration and PCA analysis in Point Distributed Models" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
