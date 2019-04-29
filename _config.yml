@@ -17,6 +17,10 @@ baseurl: ""
 #url: ""
 permalink: "/news/:title"
 
+# Google Analytics
+googleAnalyticsTrackingId: "UA-97117718-4"
+googleAnalyticsSiteUrl: "salt.slicer.org"
+
 # Organizer Info
 organizerName: "Kitware"
 organizerAlternateName: "Kitware, Inc."
