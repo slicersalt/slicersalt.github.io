@@ -15,7 +15,7 @@ title: "SlicerSALT"
 email: "beatriz.paniagua@kitware.com"
 description: "SlicerSALT is the dissemination vehicle of powerful shape analysis methodology based on 3D Slicer open-source software."
 baseurl: ""
-#url: ""
+url: "https://salt.slicer.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/news/:title"
 
 # Google Analytics
