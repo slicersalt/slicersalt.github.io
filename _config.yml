@@ -75,8 +75,8 @@ aboutListBlock:
  - { image: "regression.gif", text: "Run 4D regression in a collection of 3D PDMs associated to a linear variable (i.e. age)" }
  - { image: "groups.png", text: "Perform correspondence optimization using study-wise shape analysis" }
  - { image: "s-rep.png", text: "Fit skeletal representations (s-reps) to a collection of binary volumes" }
- - { image: "ComingSoonSALT.png", text: "Compute image-based correspondence in binary volumes of non-spherical and complex topologies" }
- - { image: "ComingSoonSALT.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
+ - { image: "RBC.png", text: "Compute image-based correspondence in binary volumes of non-spherical and complex topologies" }
+ - { image: "MFSDA.png", text: "Use advanced shape statistics for scientific hypothesis testing" }
  - { image: "SALT_gui.png", text: "Access all functionality through the graphical user interface" }
  - { image: "commandline.png", text: "Perform command line batch processing" }
  - { image: "sva.png", text: "Perform shape space exploration and PCA analysis in Point Distributed Models" }
